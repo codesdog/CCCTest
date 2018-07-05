@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UpLoad.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="关于作业系统" Type="System.String" Scope="User">
+      <Value Profile="(Default)">关于作业系统</Value>
+    </Setting>
+    <Setting Name="上传作业" Type="System.String" Scope="User">
+      <Value Profile="(Default)">产品名称：上传作业</Value>
+    </Setting>
+    <Setting Name="V1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">版本：V1.0</Value>
+    </Setting>
+    <Setting Name="鹿贵兵" Type="System.String" Scope="User">
+      <Value Profile="(Default)">版权：鹿贵兵</Value>
+    </Setting>
+    <Setting Name="中国地质大学" Type="System.String" Scope="User">
+      <Value Profile="(Default)">公司名称：中国地质大学</Value>
+    </Setting>
+    <Setting Name="我的上传作业" Type="System.String" Scope="User">
+      <Value Profile="(Default)">说明：
+我的上传作业。</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

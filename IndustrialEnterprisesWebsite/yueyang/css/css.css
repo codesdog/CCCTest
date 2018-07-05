@@ -1,0 +1,54 @@
+/*
+	总的css在此
+*/
+image{ border:0;}
+#content_bg{ background-color:#e1cd98; height:1550px;}
+#content{width:950px; height:1550px; margin:0 auto; }
+
+
+#banner{width:950px; height:85px; margin:0 auto; background:#F00; }
+
+
+#link{width:950px; height:35px; margin:0 auto; background: #4a4a4a; overflow:hidden;}
+#link ul{ margin-top:5px;}
+#link ul li{ list-style:none; float:left; line-height:35px; margin-right:40px;}
+#link ul li a{ color:#FFF; text-decoration:none;}
+#link ul li a:hover{ color:#FFF; text-decoration:underline;}
+/*.link_list ul:after {display: block;clear: both;height: 0;content: "\0020";}*/
+/*#link li {float: left;width: 100px; height:30px; line-height:30px;}*/
+/*.link_list li a {display: block; height: 30px;color: #fff;line-height: 30px;}
+.link_list li a:hover {text-decoration: none;}*/
+
+
+#pic{width:950px; height:250px; margin:0 auto;  }
+
+
+#main{width:950px;  float:left; margin:0 auto;  }
+
+
+#left{width:190px; padding:0;  margin:0;     float:left;}
+.pro_left{ width:190px; overflow:hidden; border:#a9ac35 solid 1px; margin-top:10px; }
+.vas{ list-style:none; width:190px;  margin:0px; }
+.vas .cat{ width:170px; height:25px; background:#f00 url(../images/pro_left_bg.jpg) no-repeat 0px -27px; margin-left:-35px; text-align:center; }
+.contact{ width:190px; overflow:hidden; margin-top:10px; border:#a9ac35 solid 1px;}
+.m-content .m-footer{ }
+.link{width:190px; overflow:hidden; margin-top:10px; border:#a9ac35 solid 1px; }
+.m-content .fd-clr{ list-style:none; line-height:25px;}
+
+#right{width:750px;   float:right; padding:0;  }
+.company_new{ width:750px; float:left; border:#a9ac35 solid 1px; margin-top:10px;  background-color:#FFf }
+.m-header { height:25px; line-height:25px; padding-left:10px; background: #f00 url(../images/list_bg.jpg) no-repeat; color: #fff; }
+.m-body { background-color:#FFF}
+.m-content{ width:730px; background-color:#FFF; padding:0 10px;  }
+.info-image{ width:320px;  float:left; margin:0px;}
+.info-body{ width:400px; height:230px; float:left; margin:0px;}
+.info-body p{ font-size:14px; line-height:20px; }
+.m-content-footer{ float:right;}
+.pro{ width:750px; float:left; border:#a9ac35 solid 1px; margin-top:10px;  background-color:#FFF}
+.pro li .image{ text-align:center;}
+.offer-list-row{ display:block; width:700px; font-size:14px; line-height:20px; }
+.offer-list-row li{ list-style:none; float:left; margin-right:15px; border:#999 solid 1px; padding:5px; margin-bottom:15px; }
+
+#foot{width:950px; margin:0 auto; margin-top:10px;  text-align:center; float:left; background-color:#FFF}
+#foot .m-body{ border:none;}
+.m-body p{ line-height:20px; font-size:14px;} 

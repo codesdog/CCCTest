@@ -1,0 +1,80 @@
+﻿<%@ master language="C#" autoeventwireup="true" CodeFile="MasterPage.master.cs" inherits="Web.MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <TITLE><%=pagetitle %></TITLE>
+    <meta content="SharePoint.WebPartPage.Document" name="ProgId">
+	<meta content="full" name="WebPartPageExpansion">
+	<meta content='<%=keywords %>' name="keywords">
+	<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+	<meta content="C#" name="CODE_LANGUAGE">
+	<meta content="小计天空" name="author">
+	<meta content='<%=description %>' name="description">
+	<meta content="JavaScript" name="vs_defaultClientScript">
+	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css.css" rel="stylesheet" type="text/css">
+	
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function IMG1_onclick() {
+
+}
+
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/bj2.jpg);
+}
+h1 {
+	font-size: 24px;
+	color: #FFFFFF;
+}
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="151" height="101"><img src="images/home_1.jpg" width="151" height="100" /></td>
+    <td><img src="images/home_2.jpg" width="629" height="100" border="0" usemap="#Map" id="IMG1" onclick="return IMG1_onclick()" /></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="46,61,86,81" href="Default.aspx" />
+<area shape="rect" coords="124,62,176,83" href="about.aspx" />
+<area shape="rect" coords="213,61,263,81" href="news.aspx?id=1" />
+<area shape="rect" coords="301,63,353,79" href="product.aspx" />
+<area shape="rect" coords="391,62,442,80" href="jobs.aspx" />
+<area shape="rect" coords="477,61,530,81" href="Guestbook.aspx" />
+<area shape="rect" coords="567,62,619,80" href="about.aspx?id=5" />
+</map>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+ 
+</asp:ContentPlaceHolder>
+<!--网页底部-->
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="68" background="images/home_14.jpg"><table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="text-align: center"><a href="jobs.aspx" class="black02">招贤纳才</a> <span class="black02">|</span> <a href="about.aspx" class="black02">关于我们</a> <span class="black02">|</span> <a href="about.aspx?id=5" class="black02">联系我们</a> <span class="black02">|</span> <a href="Default.aspx" class="black02">主页</a><br />
+          <span class="black02"><%=copyright %></span></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>   
+</body>
+</html>

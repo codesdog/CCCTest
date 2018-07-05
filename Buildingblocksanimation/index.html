@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>HTML5积木动画DEMO演示</title>
+
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+
+<div id="outer-wrapper">
+
+	<div id="wrapper">
+		<div id="blocks" />
+	</div>
+	
+	<div id="ui">
+		<label for="animation-in">
+			animation out
+			<select id="animation-in" name="animation-in">
+				<option value="center">center</option>
+				<option value="explode">explode</option>
+				<option value="top">beam</option>
+			</select>
+		</label>
+		<label for="animation-out">
+			animation in
+			<select id="animation-out" name="animation-out">
+				<option value="center">center</option>
+				<option value="explode">implode</option>
+				<option value="top">beam</option>
+			</select>
+		</label>				
+		<button id="play">▶</button>
+	</div>
+	
+</div>
+
+<script src='js/jquery.js'></script>
+<script src='js/jquery.velocity.min.js'></script>
+<script src='js/icrhe.js'></script>
+<script src="js/index.js"></script>
+<div style="text-align:center;">
+<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+</body>
+
+</html>

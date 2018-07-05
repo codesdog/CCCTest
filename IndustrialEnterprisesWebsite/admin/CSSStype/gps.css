@@ -1,0 +1,470 @@
+﻿body 
+{
+	background-color: #f5faff;
+	margin-left:3px;
+	margin-top:8px;
+	font-size:12px;
+}
+
+.tablehead
+{ text-align:left ;
+   margin:0px 0px 0px 10px;
+   padding:10px 0px 0px 8px;
+   background:#ccdd;
+   height:35px;
+   line-height:35px;
+   text-align:left;
+   vertical-align:text-bottom;
+   font-weight:bold;
+   color:Red;
+}
+
+/*==定义框架右页面上部格式==*/
+#pagediv
+{
+   margin:0px 0px 0px 0px;
+   padding:0px 0px 0px 2px;
+}
+
+#pagedivtop
+{
+   margin:0px 0px 0px 10px;
+   padding:10px 0px 0px 8px;
+   background:#ccdd;
+   height:25px;
+   line-height:25px;
+   text-align:left;
+   vertical-align:text-bottom;
+   font-weight:bold;
+   color:Red;
+}
+#pagetopbutton
+{
+    margin:10px 20px 0px 10px;
+    text-align:right;
+    background-color: #b1ced6;
+ }
+#pagebutton
+{
+    margin:10px 20px 0px 10px;
+    text-align:right;
+}  
+/*==定义框架右页面上部格式==*/
+
+/*======按纽样式=========*/
+.graybutton
+{ 
+    BORDER-RIGHT: #7b9ebd 1px solid; 
+    PADDING-RIGHT: 2px; 
+    BORDER-TOP: #7b9ebd 1px solid; 
+    PADDING-LEFT: 2px; 
+    FONT-SIZE: 12px; 
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+    BORDER-LEFT: #7b9ebd 1px solid; 
+    CURSOR: hand; 
+    COLOR: black; 
+    PADDING-TOP: 2px; 
+    BORDER-BOTTOM: #7b9ebd 1px solid 
+} 
+.greenbutton
+{
+BORDER-RIGHT: #7EBF4F 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7EBF4F 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#B3D997); BORDER-LEFT: #7EBF4F 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7EBF4F 1px solid ;
+background:url(../comm_images/query.gif);
+
+} 
+.bluebutton2
+{
+    BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); BORDER-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2C59AA 1px solid 
+}
+.bluebutton1
+{ 
+BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); BORDER-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2C59AA 1px solid 
+
+} 
+.btn 
+{
+    background:url(../comm_images/query.gif) no-repeat ;
+    BORDER-RIGHT: #7b9ebd 1px solid; 
+    PADDING-RIGHT: 2px; 
+    BORDER-TOP: #7b9ebd 1px solid; 
+    PADDING-LEFT: 2px; 
+    FONT-SIZE: 12px; 
+    BORDER-LEFT: #7b9ebd 1px solid; 
+    CURSOR: hand; 
+    COLOR: black; 
+    PADDING-TOP: 2px; 
+    BORDER-BOTTOM: #7b9ebd 1px solid ;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+
+} 
+.mapbtn
+{
+    background:url(../comm_images/earth.jpg) no-repeat ;
+    BORDER-RIGHT: #7b9ebd 1px solid; 
+    PADDING-RIGHT: 2px; 
+    BORDER-TOP: #7b9ebd 1px solid; 
+    PADDING-LEFT: 2px; 
+    FONT-SIZE: 12px; 
+    BORDER-LEFT: #7b9ebd 1px solid; 
+    CURSOR: hand; 
+    COLOR: black; 
+    PADDING-TOP: 2px; 
+    BORDER-BOTTOM: #7b9ebd 1px solid ;
+}
+.querybtn
+{
+    background:url(../comm_images/query.gif) no-repeat ;
+    BORDER-RIGHT: #7b9ebd 1px solid; 
+    PADDING-RIGHT: 2px; 
+    BORDER-TOP: #7b9ebd 1px solid; 
+    PADDING-LEFT: 2px; 
+    FONT-SIZE: 12px; 
+    BORDER-LEFT: #7b9ebd 1px solid; 
+    CURSOR: hand; 
+    COLOR: black; 
+    PADDING-TOP: 2px; 
+    BORDER-BOTTOM: #7b9ebd 1px solid ;}
+/*======按纽样式=========*/
+/*======文本框样式=========*/
+.textcss11  
+{  
+  
+   font:bold 14px verdana;
+	border: none;
+	border-bottom: 1px solid #a0a0a0;
+	border-right: 0px solid #a0a0a0;
+	border-left: 0px solid #a0a0a0;
+	border-top: 0px solid #a0a0a0;
+	background-color: transparent;
+	width:160px;
+} 
+.textcss1
+{
+	border:1px solid #07579b;
+	background:#eff6f9 url(../Comm_images/input_bg.gif) repeat-x top;
+	height:17px;
+	color:#07579b;
+	font:12px verdana;
+	line-height:17px;    
+}
+.textcss2
+{
+    border:1px solid #c7dfb6;
+	background:#fff url(../Comm_images/input_bg2.gif) repeat-x top;
+	height:25px;
+	font:14px verdana;
+	color:#9aa98f;
+	line-height:25px;
+}
+/*======组合框样式=========*/
+.com_box{
+	border:1px solid #c3d8e3;
+	background:#eff6f9;
+	padding:0px;
+}
+
+.tdhead
+{
+    background:#cad9ea;
+    color:#ff6666;
+}
+.tablecss
+{
+   font-size: 12px;
+	color: #000033;
+	border: 1px solid #93BEE2;
+	height: 0px;
+	width: 0px;
+	margin: 0px;
+	padding: 1px;
+}
+.innertable
+{
+    margin:0px;
+    padding:10px 10px 10px 0px;
+    font-family:Verdana 宋体;
+    font-size:12px;
+    padding:10px;  
+    border:1px solid #B9C7E2;
+}
+
+.tbborder
+{
+	background-color: #FBFBF7;
+	border-top: 1px solid;
+	border-right: 1px solid #B9C7E2;
+	border-bottom: 1px solid #B9C7E2;
+	border-left: 1px solid #B9C7E2;
+	padding: 10px;
+}
+
+/*==  GridView样式  */
+.gv
+{
+    font-family:Verdana 宋体;
+    font-size:12px;
+    padding:10px;  
+    border:#9db3c5 solid 1px;
+   
+}
+.gvheader
+{
+   margin:0px;
+   padding:0px;
+   font-size:12px;
+   text-align:center;
+   background:#cad9ea ;
+   height:23px;
+}
+.gvrow
+{
+
+   text-align:center;
+   background:d9e6ef;
+   height:27px;
+   border:#cad9ea solid;
+   border-width:2px;
+ }
+ .gvfooter
+ {
+    height:32px;
+    background-color: #b1ced6;
+    text-align:right;
+    font-family:Verdana;
+    height:20px; 
+    font-size:10pt; 
+    
+ }
+/*==  GridView样式  */
+
+
+/*=========导航栏============*/
+#submenu
+{
+	MARGIN: 0px 0px 8px 0px ;
+	PADDING: 8px 0px 0px 0px;
+	height:31px;
+	background:url(../comm_images/top_bg1.jpg) ;
+	vertical-align:middle;
+    color :White;
+   
+}
+
+#submenu ul
+ { 
+	CLEAR: left; 
+	MARGIN: 0px; 
+	PADDING:0px; 
+	BORDER: 0px; 
+	LIST-STYLE-TYPE: none; 
+	TEXT-ALIGN: center; 
+	DISPLAY:inline;
+	
+} 
+	
+#submenu li 
+{ 
+	FLOAT: left; 
+	DISPLAY: block; 
+	MARGIN: 0px; 
+	PADDING: 0px; 
+	TEXT-ALIGN: center
+} 
+#submenu li a 
+{
+	 DISPLAY: block; 
+	 PADDING:2px 3px 2px 3px; 
+	 BACKGROUND: url(images/icon_dot_lmenu.gif) transparent no-repeat 2px 8px; 
+	 FONT-WEIGHT: bold; 
+	 WIDTH: 100%; 
+	 COLOR: #444; 
+	 TEXT-DECORATION: none; 
+} 
+#submenu li a:hover 
+{ 
+    padding:0px;
+	BACKGROUND: url(images/icon_dot_lmenu2.gif) #C61C18 no-repeat 2px 8px; 
+	COLOR: #fff; 
+	height:28px;
+}
+#submenu ul li#one A { WIDTH: 60px} 
+#submenu ul li#two A { WIDTH: 80px} 
+#submenu ul li#three A { WIDTH: 80px} 
+#submenu ul li#four A { WIDTH: 90px} 
+#submenu ul li#five A { WIDTH: 80px} 
+#submenu ul li#six A { WIDTH: 80px} 
+#submenu ul li#seven A { WIDTH: 60px} 
+#submenu ul li#eight A { WIDTH: 90px} 
+#submenu ul li#nine A { WIDTH: 80px}
+/*=========导航栏============*/
+/*=========导航栏============*/
+.menu {
+font-family: arial, sans-serif;
+width:750px;
+margin:0;
+margin:50px 0;
+}
+/* remove the bullets and set the margin and padding to zero for the unordered list */
+.menu ul {
+padding:0;
+margin:0;
+list-style-type: none;
+}
+/* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
+.menu ul li {
+float:left;
+position:relative;
+}
+/* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
+.menu ul li a, .menu ul li a:visited {
+display:block;
+text-align:center;
+text-decoration:none;
+width:104px;
+height:30px;
+color:#000;
+border:1px solid #fff;
+border-width:1px 1px 0 0;
+background:#c9c9a7;
+line-height:30px;
+font-size:11px;
+}
+/* make the dropdown ul invisible */
+.menu ul li ul {
+display: none;
+}
+/* specific to non IE browsers */
+/* set the background and foreground color of the main menu li on hover */
+.menu ul li:hover a {
+color:#fff;
+background:#b3ab79;
+}
+/* make the sub menu ul visible and position it beneath the main menu list item */
+.menu ul li:hover ul {
+display:block;
+position:absolute;
+top:31px;
+left:0;
+width:105px;
+}
+/* style the background and foreground color of the submenu links */
+.menu ul li:hover ul li a {
+display:block;
+background:#faeec7;
+color:#000;
+}
+/* style the background and forground colors of the links on hover */
+.menu ul li:hover ul li a:hover {
+background:#dfc184;
+color:#000;
+}
+
+
+table {
+border-collapse:collapse;
+margin:0;
+padding:0;
+}
+/* ignore the link used by 'other browsers' */
+.menu ul li a.hide, .menu ul li a:visited.hide {
+display:none;
+}
+/* set the background and foreground color of the main menu link on hover */
+.menu ul li a:hover {
+color:#fff;
+background:#b3ab79;
+}
+/* make the sub menu ul visible and position it beneath the main menu list item */
+.menu ul li a:hover ul {
+display:block;
+position:absolute;
+top:32px;
+left:0;
+width:105px;
+}
+/* style the background and foreground color of the submenu links */
+.menu ul li a:hover ul li a {
+background:#faeec7;
+color:#000;
+}
+/* style the background and forground colors of the links on hover */
+.menu ul li a:hover ul li a:hover {
+background:#dfc184;
+color:#000;
+}
+
+/*=========导航栏============*/
+
+
+
+/*=====login========*/
+
+#loginheader
+{
+	margin:0px;
+    height:50px;
+    padding:10px;
+    font-size:24px;
+    font-family:隶书;
+    vertical-align:middle;
+    
+}
+#loginbody
+{
+	height:450px;
+	background: url(../comm_images/login.jpg);
+	vertical-align:middle;
+	margin:0px
+	
+}
+
+
+table {
+	background-color: #c3d9ee;
+}
+th {
+	background-color: #f3f6ff;
+	color: #306DA5;
+	font-size: 12px;
+	line-height: 20px;
+	background-image: url(../Comm_images/thbg.gif);
+}
+
+td {
+	background-color: #FFFFFF;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ltable {
+	background-color: #66667e;
+}
+.ltableth {
+	color: #FFFFFF;
+	font-size: 14px;
+	height:22px;
+	background-image: url(../Comm_images/ltablethbg.gif);
+}
+.ltabletd {
+	border:1px solid #437baf;
+	background-color: #437baf;
+}
+textarea {
+	background-color: #eaf0ff;
+	border: 1px solid #6f8bde;
+}
+/*
+input {
+	background-color: #FFFFFF;
+	border: 1px solid #437baf;
+	background-image: url(../images/inputbg.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+*/
+input {
+	behavior:url('css.htc'); 
+}
+

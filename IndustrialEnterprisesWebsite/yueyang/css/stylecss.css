@@ -1,0 +1,34 @@
+/* 公用部分 */
+
+
+/* 各个部分 */
+image{ border:0;}
+#goods{ width:750px; float:left; margin-top:10px; background-color:#fff}
+.goods_down{ background-color:#FFF; float:right; width:750px; text-align:right; }
+.goods_down .goodsUl{ list-style:none; float:right;}
+.goods_down .goodsUl li{ float:left; }
+
+#contact{ width:750px; float:left; margin-top:10px; background-color:#fff}
+#contact .m-body .m-content{ text-align:center;}
+
+#message{width:750px; float:left; margin-top:10px; background-color:#fff }
+#message .message_list{ width:750px;  float:left; }
+.message_list .key-name{ margin-left:50px; width:90px; margin-top:20px; float:left }
+.message_list .key-content{ margin-left:20px; margin-top:20px;  float:left }
+.message_list .key-content_1 { margin-left:20px; margin-top:20px; float:left; line-height:31px; text-align:center;   color:#FFF;}
+.message_list .key-content_1 a { display:block; width:100px; height:31px; background:url(../images/button_1.jpg) no-repeat; text-decoration:none;  color:#FFF;}
+.message_list .key-content_1 a:hover{display:block; width:100px; height:31px; background:url(../images/button_2.jpg) no-repeat}
+
+#new{ width:750px; float:left; margin-top:10px; background-color:#fff; }
+.m-content_new ul{ list-style:none; width:710px; float:left; padding:0 20px;  }
+.m-content_new ul li{ list-style:none; display:block; line-height:25px; }
+.new_left{ float:left; display:block; width:410px; }
+.new_right{ float:right; display:block; width:300px; }
+
+#newlist{ width:750px; float:left; margin-top:10px; background-color:#fff; border:#999 solid 1px; }
+.m-name{ text-align:center;}
+#newlist .m-body .m-content{ width:720px; padding:0 15px; line-height:20px; font-size:14px;}
+#newlist .m-body .m-footer{ text-align:center}
+
+#goodslist{ width:750px; float:left; margin-top:10px; background-color:#fff; border:#999 solid 1px; }
+#goodslist .m-body .m-content{ width:720px; padding:0 15px; line-height:20px; font-size:14px;}

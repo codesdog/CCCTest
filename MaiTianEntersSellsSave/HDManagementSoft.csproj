@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E435C22-EB71-44F7-8DAE-C7164C679A68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HDManagementSoft</RootNamespace>
+    <AssemblyName>HDManagementSoft</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="FrmAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAC.Designer.cs">
+      <DependentUpon>FrmAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdd.Designer.cs">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddUser.Designer.cs">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSale.Designer.cs">
+      <DependentUpon>FrmSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSS.Designer.cs">
+      <DependentUpon>FrmSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatistics.Designer.cs">
+      <DependentUpon>FrmLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUM.Designer.cs">
+      <DependentUpon>FrmUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpPW.Designer.cs">
+      <DependentUpon>FrmUpPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpUser.Designer.cs">
+      <DependentUpon>FrmUpUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAC.resx">
+      <DependentUpon>FrmAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdd.resx">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddUser.resx">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLS.resx">
+      <DependentUpon>FrmLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSale.resx">
+      <DependentUpon>FrmSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSS.resx">
+      <DependentUpon>FrmSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUM.resx">
+      <DependentUpon>FrmUM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpPW.resx">
+      <DependentUpon>FrmUpPW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpUser.resx">
+      <DependentUpon>FrmUpUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmAC.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmAdd.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmLlogin.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmLS.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmMain.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmSale.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmSS.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmUM.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmUpPW.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.FrmUpUser.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\HDManagementSoft.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\x86\Debug\GenerateResource.write.1.tlog" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="128128.ico" />
+    <Content Include="16.ico" />
+    <Content Include="32.ico" />
+    <Content Include="48.ico" />
+    <Content Include="64.ico" />
+    <Content Include="bin\Debug\HDManagementSoft.vshost.exe" />
+    <Content Include="obj\x86\Debug\HDManagementSoft.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\HDManagementSoft.exe" />
+    <Content Include="obj\x86\Debug\HDManagementSoft.pdb" />
+    <Content Include="obj\x86\Debug\TempPE\PMDataSet.Designer.cs.dll" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="PM.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

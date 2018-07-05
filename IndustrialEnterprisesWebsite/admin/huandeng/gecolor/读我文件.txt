@@ -1,0 +1,5 @@
+使用方法
+
+把TXT文件里面的JS函数challs_flash_style()替换到页面就可以了
+
+http://www.access2008.cn

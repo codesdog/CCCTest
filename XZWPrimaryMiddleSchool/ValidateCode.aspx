@@ -1,0 +1,1 @@
+<%@ page language="C#" autoeventwireup="true" inherits="Util_ValidateCode, wrxuanke" enableviewstate="false" %>

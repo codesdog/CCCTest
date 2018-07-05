@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+  <TreeNode Text="网站参数设置" SingleClickExpand="true">
+    <TreeNode Text="网站参数管理" Target="mainframe" NavigateUrl="../admin/webguanli/webcanshu.aspx">
+    </TreeNode>
+  </TreeNode>
+    <TreeNode Text="幻灯片管理" SingleClickExpand="true">
+        <TreeNode Text="幻灯片中心" Target="mainframe" NavigateUrl="../admin/huandeng/huandengp.aspx">
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="友情链接" SingleClickExpand="true">
+        <TreeNode Text="友情管理" Target="mainframe" NavigateUrl="../admin/youqing/ManageYQ.aspx">
+        </TreeNode>
+    </TreeNode>
+  <TreeNode Text="密码管理" SingleClickExpand="true">
+    <TreeNode Text="密码修改" Target="mainframe" NavigateUrl="../admin/changmima.aspx">
+    </TreeNode>
+  </TreeNode>
+</Tree>

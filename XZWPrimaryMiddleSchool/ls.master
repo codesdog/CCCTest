@@ -1,0 +1,331 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="ls, wrxuanke" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title><%=Session["schoolmc"]%>选课系统后台页面</title>
+    <style type="text/css">
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;FONT-FAMILY: 宋体
+}
+.STYLE1 {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+}
+.STYLE3 {
+	font-size: 12px;
+	color: #033d61;
+	text-align: left;
+}
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #ffffff; POSITION: relative; TOP: 2px 
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 3px; COLOR: #FFCC00; POSITION: relative; TOP: 2px
+}
+td {
+	font-family: "宋体";
+	font-size: 12px;
+}
+a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.login_txt {
+	LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; COLOR: #000000; FONT-SIZE: 12px
+}
+
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="images/Css.css">
+<SCRIPT type="text/javascript" >
+    var status = 1;
+    //  var Menus = new DvMenuCls;
+    //document.onclick = Menus.Clear;
+    function switchSysBar() {
+        if (1 == window.status) {
+            window.status = 0;
+            switchPoint.innerHTML = '<img src="images/main_55_1.gif">';
+            document.all("frmTitle").style.display = "none"
+        }
+        else {
+            window.status = 1;
+            switchPoint.innerHTML = '<img src="images/main_55.gif">';
+            document.all("frmTitle").style.display = ""
+        }
+    }
+</SCRIPT>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="70" background="images/main_05.gif">
+                    <table width="100%" border="0" height="80" cellpadding="0" cellspacing="0" background="images/admintop.jpg">
+           <tr height="30">
+            <td rowspan="2" width="200"  >
+              
+                <img alt="" src="images/adminlogo.jpg"  /></td> <td align="top" >&nbsp;</td>
+            </tr><tr height="40">
+                            <td align="right" >&nbsp;&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" 
+                                    Font-Bold="True" ForeColor="#CC0000" NavigateUrl="Loginout.aspx">退出</asp:HyperLink>
+                                 &nbsp;&nbsp;|&nbsp;登陆用户：<%=Session["rename"]%>&nbsp;|&nbsp;身份：<%=Session["shenfen"] %>&nbsp;|&nbsp;</td>
+            </tr>
+        </table>
+                  </td>
+                </tr>
+                <tr>
+                    <td height="28" background="images/main_36.gif">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="177" height="28" background="images/main_32.gif">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="20%"  height="22">
+                                                &nbsp;</td>
+                                            <td width="59%" valign="bottom">
+                                                <div align="center" class="STYLE1">
+                                                    当前用户：<%=Session["rename"]%></div>
+                                            </td>
+                                            <td width="21%">
+                                                &nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            
+                                            <td>
+                                                &nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="21">
+                                    <img src="images/main_37.gif" width="21" height="28"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" height="200" border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+                <tr>
+                    <td  bgcolor="#1873aa" style="width:6px;">  </td> <td width="165" id=frmTitle noWrap name="fmTitle" align="center" valign="top" height="100%" >
+                        <table width="171" height="100%" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                              
+                                <td width="165" valign="top" height="100%" >
+                           
+
+                        
+
+
+<script>
+
+
+
+
+    function showsubmenu(sid) {
+
+        whichEl = eval("submenu" + sid);
+        imgmenu = eval("imgmenu" + sid);
+        if (whichEl.style.display == "none") {
+            eval("submenu" + sid + ".style.display=\"\";");
+            imgmenu.background = "images/main_47.gif";
+        }
+        else {
+            eval("submenu" + sid + ".style.display=\"none\";");
+            imgmenu.background = "images/main_48.gif";
+        }
+
+        for (i = 1; i < 6; i++) {
+            if (sid == i) {
+            }
+            else {
+                eval("submenu" + i + ".style.display=\"none\";");
+                imgmenu.background = "images/main_48.gif";
+            }
+
+        }
+
+
+
+    }
+
+
+</script>
+
+<table width="165" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="28" background="images/main_40.gif">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="19%">　</td>
+        <td width="81%" height="20" align="left"><span class="STYLE1">管理菜单</span></td>
+      </tr>
+    </table>
+	</td>
+  </tr>
+  <tr>
+    <td valign="top">
+	<table width="151" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="23" background="images/main_47.gif" id="imgmenu1" class="menu_title" onMouseOver="this.className='menu_title2';" onClick="showsubmenu(1)" onMouseOut="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="18%">　</td>
+                <td width="82%" class="STYLE1" align="left">系统配置</td>
+              </tr>
+            </table>			</td>
+          </tr>
+          <tr>
+            <td background="images/main_51.gif" id="submenu1" <%if(Request.QueryString["caidanid"]!="1" && Request.QueryString["caidanid"]!=null && Request.QueryString["caidanid"]!="" ) { Response.Write("style='display:none;'");  }%><%else {  }%> >
+			 <div class="sec_menu" >  
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+				<table width="90%" border="0" align="left" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="23"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23" align="left"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><a href="lsindex.aspx" ><span class="STYLE3">选课首页</span></a></td>
+                        </tr>
+                    </table></td>
+                  </tr><tr>
+                    <td width="16%" height="25"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td width="84%" height="23">
+					<table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><a href="tkctj.aspx" ><span class="STYLE3">添加课程</span></a></td>
+                        </tr>
+                    </table>					</td>
+                  </tr>
+ <tr>
+                    <td height="23"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+                              <a href="tkclist.aspx" ><span class="STYLE3">课程管理</span></a></td>
+                        </tr>
+                    </table></td>
+                  </tr> 
+                  
+                   <tr>
+                    <td height="23"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'">
+                              <a href="tkclist.aspx" ><span class="STYLE3">学生名单</span></a></td>
+                        </tr>
+                    </table></td>
+                  </tr> 
+				  
+				  <tr>
+                    <td height="23"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23" align="left"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><a href="lsmmxg.aspx" ><span class="STYLE3">修改密码</span></a></td>
+                        </tr>
+                    </table></td>
+                  </tr> 
+                   <tr>
+                    <td height="23"><div align="center"><img src="images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23" align="left"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="left" height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><a href="Loginout.aspx" >
+                              <span class="STYLE3">退出系统</span></a></td>
+                        </tr>
+                    </table></td>
+                  </tr> 
+                   </table></td>
+              </tr>
+              <tr>
+                <td height="5"><img src="images/main_52.gif" width="151" height="5" /></td>
+              </tr>
+            </table></div></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  
+</table>
+
+
+
+
+
+
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="6"  style="width:6px;"valign="middle" bgcolor="1873aa" onclick=switchSysBar()>
+                        <SPAN class=navPoint 
+id=switchPoint title=关闭/打开左栏>
+                        <img src="images/main_55.gif" name="img1" width=6 height=40 id=img1></SPAN></td>
+                    <td width="100%" align="center" valign="top">
+                       
+
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                       
+                     
+                       
+                           
+                        <p>
+                            <br />
+                        </p>
+                       
+                     
+                       
+                           
+                        </asp:ContentPlaceHolder>
+   
+
+
+
+
+                    </td>
+                     <td width="6" bgcolor="#1873aa" style=" width:6px;">&nbsp;</td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="6" background="images/main_59.gif" style="line-height:6px;">
+                        <img src="images/main_59.gif" width="6" height="6" ></td>
+                    <td background="images/main_61.gif" style="line-height:6px;">
+                        &nbsp;</td>
+                    <td width="6" background="images/main_61.gif" style="line-height:6px;">
+                        <img src="images/main_62.gif" width="6" height="6" ></td>
+                </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

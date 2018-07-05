@@ -1,0 +1,21 @@
+﻿body 
+{
+	font-size:12px;
+	line-height:15px;
+}
+
+.tab
+{
+    BORDER-RIGHT: #7dbad7 1px solid; BORDER-TOP: #7dbad7 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #7dbad7 1px solid; WIDTH: 105px; COLOR: #6cd0ff; BORDER-BOTTOM: #7dbad7 1px solid; HEIGHT: 17px; BACKGROUND-COLOR: #292929
+}
+.bx
+{
+	font-size:12px;
+	font-weight:bold;
+	line-height:30px;
+	background-color:#E8E8D0;
+	text-align: center;
+}
+A.black:link {FONT-SIZE: 12px;text-decoration: none;color: #201F1F;}
+A.black:visited {FONT-SIZE: 12px;COLOR: #201F1F;text-decoration: none;}
+A.black:hover {FONT-SIZE: 12px; COLOR: #D80000; TEXT-DECORATION: underline}

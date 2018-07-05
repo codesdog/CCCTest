@@ -1,0 +1,41 @@
+body { background:#fff;}
+
+form { margin:0; padding:0;}
+
+.control_btns { text-align:right;}
+
+.data_box { margin:8px 0;}
+
+
+.header_table .more { text-align:right;}
+.header_table .more a{ font-size:12px; color:#fff; text-decoration:none; text-align:right; padding-right:10px;}
+
+.content_table .th_td { background:# url(../Comm_images/th_bg.jpg) repeat-x bottom; text-align:center; font-weight:; color:#;}
+
+.content_table a { color:#000; text-decoration:underline;}
+
+.page_style td { border:0px;}
+.page_style a { text-decoration:none;}/*没有下滑线*/
+
+.align_center { text-align:center;}
+
+.free_box { margin:8px 0;}
+
+.free_table { font:12px verdana; color:#333;}
+.free_table td { padding:3px; background-color:#EBEBEB;  
+border-top:1px solid #CBCBCB; border-right:1px solid #B2B2B2; border-left:1px solid #CBCBCB; }
+.free_table td.border-bottom{ border-bottom:1px solid #CBCBCB}
+
+.special_btn { background:url(../Comm_images/header_bg2.jpg) -3px top; color:#FFF; border-width:0px; padding:3px; font-size:12px;}
+
+
+
+
+.hint {width:100%;color:#FF0000;font-weight:bold;text-align:left;}
+.hint span {cursor:pointer;color:#18479B;font-weight:normal;}
+.hint span ul {border:1px #5A83A1 solid;width:125px;background:#FBFDFF;border-collapse:collapse;}
+.hint span li {line-height:21px;text-indent:10px;width:120px;text-align:left;color:#18479B;}
+.hint span li a {color:#18479B;width:100%;display:block;}
+.hint span li a:hover {background:url(../Comm_images/pic36.gif) no-repeat left #D3E7FA;width:100%}
+
+

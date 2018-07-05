@@ -1,0 +1,69 @@
+简单信息管理[Oracle数据库]源码
+
+系统使用说明
+1：数据库的安装
+数据库版本：Oracle10g以上。
+
+将以下SQL语句，在Oracle中执行，建立数据库。
+（我安装的是 ORACLE Database Express Edition版本，
+首先用system用户登录，创建数据库用户，然后用SQL命令
+执行下面的脚本来生成需要的表。下面2句先后执行）
+create table XS
+(
+  SID      VARCHAR2(10) not null,
+  NAME     VARCHAR2(20) not null,
+  AGE      VARCHAR2(20),
+  SEX      VARCHAR2(1),
+  EMAIL    VARCHAR2(50),
+  ADDRESS  VARCHAR2(200),
+  BIRTHDAY DATE,
+  ZY       VARCHAR2(20),
+  XF       NUMBER(2),
+  MENO     VARCHAR2(200),
+  PIC	   BLOB
+);
+
+alter table XS
+  add constraint XS_SIDKEY primary key (SID)
+
+2:软件的环境
+
+本系统采用Microsoft Visual Studio 2008 和Oracle数据库，Framework的版本是2.0。
+修改App.config下：
+  <appSettings>
+    <add key="OrclConnStr" value="Data Source=localhost;User ID=51aspx;Password=root;Persist Security Info=True"/>
+  </appSettings>
+3.项目的打开和运行
+
+使用Microsoft Visual Studio 2008以上的集成开发环境可以直接打开，查看代码并进行调试。
+或者是安装了Framework2.0环境的系统，双击目录UpLoad\bin\Debug下的UpLoad.exe即可。
+
+4.软件的功能
+
+实现了增，删，改，查Oracle数据库，上传图片的功能，修改图片的功能。
+
+关于如何使用Oracle数据库，安装以及使用请到http://bbs.51aspx.com论坛和大家交流。
+
+作者:menglishangxin
+下载地址：http://win.51aspx.com/CV/infoManageOracle
+
+                ╭═══════════════╮
+                ║        Asp.net源码网         ║
+  ╭══════┤     http://www.51aspx.com    ├══════╮
+  ║            ║ 论坛:http://bbs.51aspx.com   ║            ║
+  ║            ╰═══════════════╯            ║
+　║                                                          ║
+　║51aspx声明：                                              ║
+  ║   1) 本站不保证所提供软件或程序的完整性和安全性。        ║
+  ║   2) 转载本站提供的资源请勿删除本说明文件。              ║
+  ║   3) 本站提供的程序均为网上搜集，如果该代码涉及或侵害到您║
+  ║      的版权请立即写信通知我们。                          ║
+  ║   4) 本站提供代码只可供研究使用，请在下载24小时内删除,   ║
+  ║      切勿用于商业用途，由此引起一切后果与本站无关。      ║
+  ║   5) 如果源码有升级或修补，我们会在本站进行，恕不另行通知║
+　║                                                          ║
+  ║           本站专注于Asp.net源码下载                      ║
+  ║           联系方式 : support@51aspx.com                  ║
+  ║    ╭───────────────────────╮    ║
+  ╰══┤  Asp.net源码网 http://www.51aspx.com         ├══╯
+        ╰───────────────────────╯

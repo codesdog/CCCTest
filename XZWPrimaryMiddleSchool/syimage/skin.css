@@ -1,0 +1,96 @@
+.login_top_bg {
+	BACKGROUND-IMAGE: url(login-top-bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+.body {
+	BACKGROUND-COLOR: #eef2fb; BOTTOM: 0px; TOP: 0px; RIGHT: 0px; LEFT: 0px
+}
+.login-buttom-bg {
+	BACKGROUND-IMAGE: url(login-buttom-bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+.login-buttom-txt {
+	LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #abcad3; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.login_txt {
+	LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: 12px
+}
+.Submit {
+	BACKGROUND-IMAGE: url(Submit_bg.gif); BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #629dae; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.login_bg {
+	BACKGROUND-IMAGE: url('login_bg.jpg'); 
+BACKGROUND-REPEAT: repeat-x;
+    height: 467px;
+}
+.login_bg2 {
+	BACKGROUND-IMAGE: url(login-content-bg.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+.admin_txt {
+	LINE-HEIGHT: 38px; WIDTH: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 38px; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.login_txt_bt {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.admin_topbg {
+	BACKGROUND-IMAGE: url(top-right.gif); BACKGROUND-REPEAT: repeat-x
+}
+.txt_bt {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.left_topbg {
+	BACKGROUND-IMAGE: url(content-bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+.admin_toptxt {
+	WIDTH: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 18px; COLOR: #4a8091; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.left_bt {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #395a7b; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.left_bt2 {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.titlebt {
+	BACKGROUND-IMAGE: url(top_bt.jpg); LINE-HEIGHT: 26px; TEXT-INDENT: 15px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.left_txt {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 12px
+}
+.left_txt2 {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 12px
+}
+.nowtable {
+	BORDER-BOTTOM-COLOR: #bfc4ca; BORDER-RIGHT-WIDTH: 1px; BACKGROUND-COLOR: #e1e5ee; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-COLOR: #bfc4ca; BORDER-LEFT-COLOR: #bfc4ca; BORDER-TOP: #bfc4ca 1px solid; BORDER-LEFT-WIDTH: 1px
+}
+.left_txt3 {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #003366; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.left_ts {
+	LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ff6600; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.line_table {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.sec1 {
+	BACKGROUND-IMAGE: url(right_smbg.jpg); BORDER-BOTTOM: #b5d0d9 1px solid; BORDER-LEFT: #b5d0d9 1px solid; LINE-HEIGHT: 25px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #b5d0d9 1px solid; CURSOR: hand; BORDER-RIGHT: #b5d0d9 1px solid
+}
+.sec2 {
+	BORDER-BOTTOM: #e2e7ed 1px solid; BORDER-LEFT: #e2e7ed 1px solid; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #e2e7ed; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #e2e7ed 1px solid; CURSOR: hand; FONT-WEIGHT: bold; BORDER-RIGHT: #e2e7ed 1px solid
+}
+.main_tab {
+	BORDER-BOTTOM: #e2e7ed 1px solid; BORDER-LEFT: #e2e7ed 1px solid; BACKGROUND-COLOR: #e2e7ed; COLOR: #000000; BORDER-TOP: #e2e7ed 1px solid; BORDER-RIGHT: #e2e7ed 1px solid
+}
+.MM A {
+	BACKGROUND-IMAGE: url(menu_bg.gif); LINE-HEIGHT: 26px; LIST-STYLE-TYPE: none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 12px; LIST-STYLE-IMAGE: none
+}
+GHT: 
+{
+    COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:hover {
+	LINE-HEIGHT: 25px; COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	LINE-HEIGHT: 25px; COLOR: #FF0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.MM A:link {
+	BACKGROUND-IMAGE: url(menu_bg.gif); LINE-HEIGHT: 26px; LIST-STYLE-TYPE: none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 12px; LIST-STYLE-IMAGE: none
+}

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EEFD56C7-D6C8-4696-A02C-325D9561E13C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QiZhanBang.Core</RootNamespace>
+    <AssemblyName>QiZhanBang.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\LangHelper.cs" />
+    <Compile Include="Business\Security.cs" />
+    <Compile Include="Common\HtmlHelper.cs" />
+    <Compile Include="Common\HYRequest.cs" />
+    <Compile Include="Common\ServerInfo.cs" />
+    <Compile Include="Common\SiteConfig.cs" />
+    <Compile Include="Common\Thumbnail.cs" />
+    <Compile Include="Common\UrlRewriter.cs" />
+    <Compile Include="Common\Utils.cs" />
+    <Compile Include="PageControler\UserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QiZhanBangHttpModule.cs" />
+    <Compile Include="Factory\ArticleCategoryFactory.cs" />
+    <Compile Include="Factory\ArticleFactory.cs" />
+    <Compile Include="Factory\ChannelFactory.cs" />
+    <Compile Include="Factory\LeaguerFactory.cs" />
+    <Compile Include="Factory\LinkCategoryFactory.cs" />
+    <Compile Include="Factory\LinkFactory.cs" />
+    <Compile Include="Factory\MemberFactory.cs" />
+    <Compile Include="Factory\MessageFactory.cs" />
+    <Compile Include="Factory\OleDbHelper.cs" />
+    <Compile Include="Factory\OrderFactory.cs" />
+    <Compile Include="Factory\ProductFactory.cs" />
+    <Compile Include="Factory\SinglePageFactory.cs" />
+    <Compile Include="Factory\SiteSettingFactory.cs" />
+    <Compile Include="Factory\VideoCategoryFactory.cs" />
+    <Compile Include="Factory\VideoFactory.cs" />
+    <Compile Include="Factory\ProductCategoryFactory.cs" />
+    <Compile Include="Model\Article.cs" />
+    <Compile Include="Model\ArticleCategory.cs" />
+    <Compile Include="Model\Channel.cs" />
+    <Compile Include="Model\Leaguer.cs" />
+    <Compile Include="Model\Link.cs" />
+    <Compile Include="Model\LinkCategory.cs" />
+    <Compile Include="Model\Member.cs" />
+    <Compile Include="Model\Message.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\SinglePage.cs" />
+    <Compile Include="Model\Video.cs" />
+    <Compile Include="Model\VideoCategory.cs" />
+    <Compile Include="Model\ProductCategory.cs" />
+    <Compile Include="PageControler\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControler\VerifyImagePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

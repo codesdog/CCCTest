@@ -1,0 +1,78 @@
+.xia {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+}
+.black {
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+	font-family: Arial;
+}
+.blue2 {
+	font-size: 12px;
+	line-height: 22px;
+	color: #000066;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+.blue {
+	font-size: 12px;
+	line-height: 22px;
+	color: #6699CC;
+	text-decoration: none;
+}
+.black02 {
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+	font-family: Arial;
+}
+.you {
+	font-size: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+.xia2 {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.blue3 {
+	font-size: 16px;
+	color: #0592E1;
+	text-decoration: none;
+}
+.kuang {
+	font-size: 12px;
+	border: 1px solid #999999;
+	background-color: #F6F6F6;
+}
+.red {
+	font-size: 16px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.black3 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+}
+.sx {
+	font-size: 12px;
+	background-color: #EFF7FC;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}

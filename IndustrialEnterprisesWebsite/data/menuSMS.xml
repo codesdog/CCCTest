@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+    <TreeNode Text="产品中心" SingleClickExpand="true">
+        <TreeNode Text="添加产品" Target="mainframe" NavigateUrl="../admin/goods/addgood.aspx">
+        </TreeNode>
+        <TreeNode Text="产品管理" Target="mainframe" NavigateUrl="../admin/goods/gdManage.aspx" >
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="产品类别管理" SingleClickExpand="true">
+        <TreeNode Text="类别添加" Target="mainframe" NavigateUrl="../admin/goods/addgdclass.aspx">
+        </TreeNode>
+        <TreeNode Text="类别管理" Target="mainframe" NavigateUrl="../admin/goods/gdclassManage.aspx" >
+        </TreeNode>
+    </TreeNode>
+</Tree>

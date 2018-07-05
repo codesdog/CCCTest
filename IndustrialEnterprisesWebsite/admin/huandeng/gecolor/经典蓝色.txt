@@ -1,0 +1,50 @@
+
+function challs_flash_style(){ //组件颜色样式设置函数
+	var a = {};
+	
+	/*  整体背景颜色样式 */
+	a.backgroundColor=['#f6f6f6','#f3f8fd','#dbe5f1'];	//颜色设置，3个颜色之间过度
+	a.backgroundLineColor='#5576b8';					//组件外边框线颜色
+	a.backgroundFontColor='#066AD1';					//组件最下面的文字颜色
+	a.backgroundInsideColor='#FFFFFF';					//组件内框背景颜色
+	a.backgroundInsideLineColor=['#e5edf5','#34629e'];	//组件内框线颜色，2个颜色之间过度
+	a.upBackgroundColor='#ffffff';						//上翻按钮背景颜色设置
+	a.upOutColor='#000000';								//上翻按钮箭头鼠标离开时颜色设置
+	a.upOverColor='#FF0000';							//上翻按钮箭头鼠标移动上去颜色设置
+	a.downBackgroundColor='#ffffff';					//下翻按钮背景颜色设置
+	a.downOutColor='#000000';							//下翻按钮箭头鼠标离开时颜色设置
+	a.downOverColor='#FF0000';							//下翻按钮箭头鼠标移动上去时颜色设置
+	
+	/*  头部颜色样式 */
+	a.Top_backgroundColor=['#e0eaf4','#bcd1ea']; 		//颜色设置，数组类型，2个颜色之间过度
+	a.Top_fontColor='#245891';							//头部文字颜色
+	
+	
+	/*  按钮颜色样式 */
+	a.button_overColor=['#FBDAB5','#f3840d'];			//鼠标移上去时的背景颜色，2个颜色之间过度
+	a.button_overLineColor='#e77702';					//鼠标移上去时的边框颜色
+	a.button_overFontColor='#ffffff';					//鼠标移上去时的文字颜色
+	a.button_outColor=['#ffffff','#dde8fe']; 			//鼠标离开时的背景颜色，2个颜色之间过度
+	a.button_outLineColor='#91bdef';					//鼠标离开时的边框颜色
+	a.button_outFontColor='#245891';					//鼠标离开时的文字颜色
+	
+	/* 文件列表样式 */
+	a.List_backgroundColor='#EAF0F8';					//列表背景色
+	a.List_fontColor='#333333';							//列表文字颜色
+	a.List_LineColor='#B3CDF1';							//列表分割线颜色
+	a.List_cancelOverFontColor='#ff0000';				//列表取消文字移上去时颜色
+	a.List_cancelOutFontColor='#D76500';				//列表取消文字离开时颜色
+	a.List_progressBarLineColor='#B3CDF1';				//进度条边框线颜色
+	a.List_progressBarBackgroundColor='#D8E6F7';		//进度条背景颜色	
+	a.List_progressBarColor=['#FFCC00','#FFFF00'];		//进度条进度颜色，2个颜色之间过度
+	
+	/* 错误提示框样式 */
+	a.Err_backgroundColor='#C0D3EB';					//提示框背景色
+	a.Err_LineColor='#5D7CBB';							//提示框边框线景色
+	a.Err_cancelOverColor='#0066CC';					//提示框取消按钮移上去时颜色
+	a.Err_cancelOutColor='#FF0000';						//提示框取消按钮离开时颜色
+	a.Err_fontColor='#245891';							//提示框文字颜色
+	
+	
+	return a;
+}

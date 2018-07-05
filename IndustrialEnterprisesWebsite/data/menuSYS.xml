@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tree>
+    <TreeNode Text="关于我们" SingleClickExpand="true">
+        <TreeNode Text="关于我们中心" Target="mainframe" NavigateUrl="../admin/about/about.aspx">
+        </TreeNode>
+    </TreeNode>
+    <TreeNode Text="联系我们" SingleClickExpand="true">
+        <TreeNode Text="联系我们中心" Target="mainframe" NavigateUrl="../admin/lianxi/contact.aspx">
+        </TreeNode>
+    </TreeNode>
+  <TreeNode Text="新闻中心" SingleClickExpand="true">
+    <TreeNode Text="新闻发布" Target="mainframe" NavigateUrl="../admin/news/addnew.aspx">
+    </TreeNode>
+    <TreeNode Text="新闻管理" Target="mainframe" NavigateUrl="../admin/news/newsManage.aspx">
+    </TreeNode>
+  </TreeNode>
+    <TreeNode Text="订单中心" SingleClickExpand="true">
+        <TreeNode Text="订单管理" Target="mainframe" NavigateUrl="../admin/dingdan/order.aspx">
+        </TreeNode>
+    </TreeNode>
+</Tree>

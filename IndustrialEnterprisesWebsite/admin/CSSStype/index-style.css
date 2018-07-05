@@ -1,0 +1,156 @@
+@charset "gb2312";
+/* CSS Document */
+*{ font-family:Verdana,"ËÎÌå",Arial, Helvetica, sans-serif;margin:0px; padding:0px}
+img{border:0}
+ul,li{list-style:none}
+.clear{clear:both}
+a{font-size:12px; color:#183900; line-height:24px;text-decoration:none;}
+a:hover{ color:#C00; text-decoration:none;}
+.span ul li span{float:right; line-height:24px; font-size:12px; color:#183900}
+
+.InputBut1{background-image:url(../images/butbg1.jpg);background-repeat: no-repeat;width:66px;height:21px;line-height:21px;color:#FFF;border:0px;font-size:12px;font-weight:bold; margin:25px 10px 0px 15px}
+.InputBut1:hover{background-image:url(../images/butbg2.jpg);background-repeat: no-repeat; cursor:hand;}
+
+#nav{height:24px; line-height:24px; float:left; font-size:13px; padding-top:25px}
+
+#maxnav {
+	Z-INDEX: 100; POSITION: absolute; LIST-STYLE-TYPE: none; margin-top:50px; padding-left:290px;_padding-left:0px;
+}
+#maxnav LI {
+	POSITION: relative; LIST-STYLE-TYPE: none; WIDTH: 89px; FLOAT: left; margin-left:12px;_margin-left:9px;}
+#maxnav LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 33px; WIDTH: 89px; DISPLAY: block; FLOAT: left; HEIGHT: 42px; COLOR: #4b4b4b; font-family:"Î¢ÈíÑÅºÚ"; FONT-SIZE: 14px; }
+#maxnav LI:hover A {BACKGROUND:url(../images/menubg.png) no-repeat; COLOR: #FFF; TEXT-DECORATION: none; BEHAVIOR: url(iepngfix.htc)}
+#maxnav LI A:hover {BACKGROUND:url(../images/menubg.png) no-repeat; COLOR: #FFF; TEXT-DECORATION: none; BEHAVIOR: url(iepngfix.htc)}
+#maxnav LI .sub {POSITION: absolute; DISPLAY: none; FLOAT: left; TOP:42px;LEFT:-20px}
+#maxnav LI .subx {
+	RIGHT: 0px
+}
+#maxnav UL.sub LI {
+ LIST-STYLE-TYPE: none; WIDTH: 109px;OVERFLOW: hidden;
+}
+#maxnav UL.sub LI.submenuTop{ background-image:url(../images/submenutop.png); width:109px; height:6px; overflow:hidden;}
+#maxnav UL.sub LI.submenuBot{ background-image:url(../images/submenubot.png); width:109px; height:6px; overflow:hidden;}
+#maxnav UL.sub LI A {WIDTH: 109px;DISPLAY: block; BACKGROUND: url(../images/submenu1.png); COLOR:#000; FONT-SIZE: 12px; line-height:22px; padding-top:7px; height:22px;}
+#maxnav UL.sub LI A:hover {
+	BACKGROUND: url(../images/submenu2.png);COLOR: #060;}
+
+.FlatMain{ position:absolute; left:0px; top:0px; z-index:100; width:100%;}
+
+#warp{width:100%;background:url(../images/head-bj.gif) repeat-x;}
+.warp1{ margin:0 auto;}
+
+#head{ width:1000px; height:94px; margin:0 auto;}
+.logo{ background:url(../images/logo.gif) no-repeat; height:48px; width:316px; margin-top:30px; float:left}
+.jiaru{width:400px; height:34px; background:url(../images/line-1.jpg) no-repeat 0px 32px; float:right; line-height:34px; text-align:right; font-size:12px}
+.jiaru a img{ float:right; padding:8px 5px 0px 17px}
+
+#banner{height:490px; overflow:hidden; text-align:center}
+
+
+.nr{width:1038px; height:695px; margin:0 auto; background:url(../images/nr-bj.png) no-repeat; position: absolute; top:470px;left:0; right:0;_position:none;_top:-115px}
+.nr-{width:950px; margin:0 auto;}
+.new-tp{width:273px; height:207px; float:left; margin:35px 0px 0px 22px; float:left;_margin-left:11px;background:url(../images/new-bj.jpg) no-repeat;_background:none}
+#KinSlideshow{width:265px; height:199px; padding:4px;_border:1px solid #CCC;_padding:1px;}
+.new-tp img{ float:left;}
+.news-1{width:305px; height:222px; float:left; margin-top:25px; margin-left:14px; background:url(../images/new-bt.jpg) no-repeat}
+.news-1 h3 a{font-size:12px; color:#FFF; margin-left:7px;}
+.news-1 ul{ margin-top:5px;}
+
+.menpiao{width:290px; height:158px; float:left; margin:35px 0px 0px 44px}
+.mp-bt{width:75px; height:22px; background:#f6f6f4; font-size:12px; font-weight:bold; color:#519627; text-align:center; line-height:22px; float:left}
+.mp-xia{width:290px; height:136px; background:url(../images/menpiao.png) no-repeat; float:left; font-size:12px}
+.mp-xia p{width:250px; height:18px;margin:15px 0 0 15px}
+.mp-xia p select{width:90px; height:18px; }
+.mp-xia p input{width:80px; height:18px; }
+.tel{ width:290px; height:53px; float:left; margin-left:44px;}
+
+.yule{width:588px; height:62px; float:left; background:url(../images/yule.jpg) no-repeat; margin:0px 0px 0px 22px;_margin-left:11px}
+.yule ul li{ width:60px; height:45px; display:inline-block; float:left; margin-top:14px;}
+
+.zhizhu{width:588px; height:185px; float:left; margin-left:22px;_margin-left:11px}
+.zhi-1{width:270px; height:185px; float:left;}
+.bt{width:100%; height:35px; background:url(../images/line-2.jpg) no-repeat -10px 34px; margin-bottom:5px; float:left}
+.bt h3{font-size:13px; font-weight:bold; color:#2e7900; padding-top:13px; float:left}
+.bt img{ float:left; padding:10px 0px 0px 2px;}
+.line1{width:48px; height:149px; margin-top:36px; float:left; background:url(../images/line-3.jpg) no-repeat 20px 0px;}
+
+.shijing{width:290px; height:245px; float:right}
+.tp{width:274px; height:209px; float:left; background:url(../images/tp-bj.jpg) no-repeat; margin-left:5px;}
+.tp img{ padding-left:6px; padding-top:4px}
+
+.fuwu{ width:205px; height:180px;margin-left:22px;_margin-left:11px; }
+.fuwu-xia{width:203px; height:135px; border:1px solid #e0eed7; float:left}
+.fuwu-xia p{width:150px; height:15px; line-height:15px; padding-left:28px; font-size:12px;}
+.fuwu-xia p img{margin-top:2px}
+.fuwu-xia ul li img{ float:left; vertical-align:middle}
+.fuwu-xia ul li{ width:75px; height:19px; float:left; padding:17px 14px 0px 12px;_padding:11px 14px 0px 12px;}
+.xiumei{ width:690px; height:180px; float:right;}
+
+.tp-scrool{width:690px; height:135px; float:left}
+#demoLeft{width:100%; height:150px;overflow:hidden;}
+#demo1{float:left;}
+#demo1 ul li{width:131px; height:150px; text-align:center; line-height:14px; float:left; list-style:none; padding:0px 10px;_padding:0px 5px;}
+#demo2 ul li{width:131px; height:150px; text-align:center; line-height:14px; float:left; list-style:none; padding:0px 10px;_padding:0px 5px;}
+#demo2{float:left;}
+#demo2 img{ padding:5px}
+#demo1 img{ padding:5px; float:left}
+#demoLeft .indemo{width:500%;}
+
+#foot{width:100%; height:114px; background:url(../images/foot-bj.jpg) repeat-x; position:absolute;top:1140px;_left:0px}
+.foot-1{width:950px; height:80px; margin:30px auto 0;font-size:12px; color:#fefefe; line-height:20px;}
+.foot-1 p a{ color:#fefefe; font-weight:normal;}
+
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+.content_table {   border-collapse:collapse; border:1px solid #709ac3; background:#FFF;}/*?????*/
+
+.content_table td { border-collapse:collapse; border:1px solid #CBCBCB; line-height:22px; font-size:12px; font-family:@宋体; padding:0px;}/*表格边框色*/
+
+.content_table tr:hover{ background-color:#EBEBEB;}
+ 
+.content_table th { height:18PX;background:#dbe5ef url(../images/th_bg.jpg) repeat-x bottom; border-collapse:collapse; border:1px solid #CECECE; padding:3px; font-size:12px; color:#4E4E4E;}/*选择终端设备号边框和字的颜色*/
+
+.content_table02 {border-collapse:collapse; border:1px solid #fff; background:#FFF;}
+
+.content_table02 td { border-collapse:collapse; border:1px solid #fff; line-height:22px; font-size:12px; font-family:@宋体; padding:0px;}/*表格边框色*/
+
+.content_table02 a {
+ display:block;
+ float:left;
+ width:45px;
+ height:17px;
+ color:#000;
+ line-height:20px;
+ text-decoration:none;
+ background:url(../images/scroll.jpg) ;  
+ font-size:12px;
+ text-align:center; margin-right:3px; margin-top:3px;   
+}
+.content_table02 a:hover {
+ color:#616161;
+ background:url(../images/scroll.jpg) ;  
+ font-size:12px;
+ text-align:center;
+}
+
+.page_style span { display:inline-block; padding:3px 5px; border:1px solid #000000; background:#000000; font:12px Arial; color:#fff; text-decoration:none; margin:5px; }
+/*下一页背景和边框色*/
+
+.input_style_001 { border:1px solid #A0A0A0;  background:#fff url(../Comm_images/input_bg.jpg) repeat-x top; font-size:12px; color:black; padding:2px;}/*input*/
+
+.this_title { color:#FF9C00; font-family:"微软雅黑"; font-size:20px; font-weight:bold; background:url(../images/celan.gif)  no-repeat left center; padding-left:28px;}/*按报警信息锁车*/
+.page_style a {display:inline-block; padding:3px 5px; border:1px solid #CECECE; background:#fff; font:12px Arial; color:#000000; margin:5px 5px 5px 0; }/*又一个下一页边框字体颜色*/
+
+.control_btns a { display:inline-block; padding:3px 8px; border:1px solid #4E4E4E; color:#4E4E4E; font-size:12px; text-decoration:none; background:#fff url(../Comm_images/btn_bg.jpg) repeat-x top;}/*添加挖掘机信息按钮*/
+
+.page_style a:hover { border:1px solid #000000; background:#000000; color:#FFF;}/*下一页鼠标经过背景色和边框颜色*/
+
+.header_table .header_title { font:bold 14px verdana; color:#333333; padding-left:10px; padding-top:3px; text-align:left;  }/*给字体添加阴影*/
+
+.header_table { height:25px; background:url(../images/header_bg.jpg) repeat-x left top; border-right:1px solid #C5C5C5;border-left:1px solid #C5C5C5;}/*车辆列表背景图片*/
+
+body { padding:3; margin:3; background:url(../images/left_bg.jpg) repeat-y left top fixed;}/*left_bg.jpg背景图片*/
+
+
+.top_table { background: url(../Comm_images/images_black/page_top_bg.jpg) no-repeat left top; height:57px;}/*page_top_bg.jpg背景图片*/
+
+.welcome_txt a { display:inline-block; color:#333333; text-decoration:none; width:64px; height:23px; text-align:center; line-height:22px; overflow:hidden; background:url(../images/top_btn_bg.gif) no-repeat left top;}/*top_btn_bg.gif*/
+
+.common_btn { BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#D7E7FA); BORDER-LEFT: #2C59AA 1px solid; 
+CURSOR: hand; COLOR: black; PADDING-TOP: 2px; PADDING-left: 3px;PADDING-right: 3px;BORDER-BOTTOM: #2C59AA 1px solid}/*开始查询按钮*/
+
+.more_special_btn { background:url(../Comm_images/images_black/special_btn_bg.jpg) no-repeat left top; width:103px; height:29px; font:bold 12px verdana; color:#FFF; text-align:center; border-width:0px;}/*more_special_btn*/

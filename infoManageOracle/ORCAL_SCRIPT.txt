@@ -1,0 +1,19 @@
+Óï¾ä
+
+create table XS
+(
+  SID      VARCHAR2(10) not null,
+  NAME     VARCHAR2(20) not null,
+  AGE      VARCHAR2(20),
+  SEX      VARCHAR2(1),
+  EMAIL    VARCHAR2(50),
+  ADDRESS  VARCHAR2(200),
+  BIRTHDAY DATE,
+  ZY       VARCHAR2(20),
+  XF       NUMBER(2),
+  MENO     VARCHAR2(200),
+  PIC	   BLOB
+);
+alter table XS
+  add constraint XS_SIDKEY primary key (SID)
+
